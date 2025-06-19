@@ -1,0 +1,38 @@
+{
+	"name": "webrtc-relay-server",
+	"version": "0.1.0",
+	"author": "chan9yu <dev.cgyeo@gmail.com>",
+	"description": "Complete signaling and TURN server for seamless peer-to-peer connections.",
+	"private": true,
+	"packageManager": "pnpm@10.12.1",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/chan9yu/webrtc-relay-server"
+	},
+	"scripts": {
+		"dev": "nodemon",
+		"build": "tsc",
+		"start": "node dist/index.js"
+	},
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^16.5.0",
+		"express": "^5.1.0"
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.29.0",
+		"@types/cors": "^2.8.19",
+		"@types/express": "^5.0.3",
+		"@types/node": "^24.0.3",
+		"@types/ws": "^8.18.1",
+		"eslint": "^9.29.0",
+		"eslint-config-prettier": "^10.1.5",
+		"eslint-plugin-simple-import-sort": "^12.1.1",
+		"globals": "^16.2.0",
+		"nodemon": "^3.1.10",
+		"prettier": "^3.5.3",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.8.3",
+		"typescript-eslint": "^8.34.1"
+	}
+}
