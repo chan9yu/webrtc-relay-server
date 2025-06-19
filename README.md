@@ -154,10 +154,8 @@ pnpm test:coverage
 
 - ✅ 프로덕션에서 HTTPS/WSS 사용
 - ✅ TURN 자격증명 로테이션
-- ✅ 속도 제한 구현
 - ✅ CORS 설정
 - ✅ 입력 값 검증
-- ✅ TURN 포트용 방화벽 설정
 
 <br />
 
